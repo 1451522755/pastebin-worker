@@ -15,16 +15,16 @@ rules = [
 
 [[routes]]
 # Refer to https://developers.cloudflare.com/workers/wrangler/configuration/#routes
-pattern = "shz.al"
+pattern = "pattern"
 custom_domain = true
 
 [[kv_namespaces]]
 binding = "PB"  # do not touch this
-id = "cc398e983a234aa19de5ea6af571a483"  # id of your KV namespace
+id = "0160e4330c9049e784c2cfd6477e15dc"  # id of your KV namespace
 
 [vars]
 # must be consistent with your routes
-BASE_URL = "https://shz.al"
+BASE_URL = "https://www.cf.cloudns.nz"
 
 # url to repo, displayed in index page
 REPO = "https://github.com/SharzyL/pastebin-worker"
